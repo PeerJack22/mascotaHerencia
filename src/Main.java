@@ -52,6 +52,7 @@ public class Main {
         pajaro.setTamanoPico(tpico);
 
         //Pajaro
+        System.out.println();
         pajaro.mostrarPajaro();
         pajaro.volar();
 
