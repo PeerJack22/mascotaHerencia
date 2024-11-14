@@ -30,4 +30,15 @@ public class Pajaro extends Mascota{
     public void setTamanoPico(double tamanoPico) {
         this.tamanoPico = tamanoPico;
     }
+
+    //metodos personalizados
+    public void mostrarPajaro (){
+        System.out.println("Pajaro");
+        System.out.println("Color de plumas: " + colorPlumas);
+        System.out.println("Tamaño de pico: " + tamanoPico);
+    }
+
+    public void volar(){
+        System.out.println("el pájaro esta volando");
+    }
 }
